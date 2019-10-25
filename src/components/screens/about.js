@@ -1,9 +1,10 @@
 import React from 'react';
+import dogImage from '../../assets/images/cachorro-sobre.png';
 
 export const AboutScreen = () => (
   <div className="container" id="about">
     <div className="about-image">
-      <img src={"images/cachorro-sobre.png"} className="mask-object" />
+      <img src={dogImage} className="mask-object" alt="cachorro" />
     </div>
     <div className="about-history-container">
       <div className="about-history">

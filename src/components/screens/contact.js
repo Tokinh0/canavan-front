@@ -1,4 +1,6 @@
 import React from 'react';
+import dogImage from '../../assets/images/cachorro-contato.png';
+import SocialNetworkLinks from '../base/social-network-links';
 
 export const ContactScreen = () => (
   <div className="container" id="contact">
@@ -11,22 +13,9 @@ export const ContactScreen = () => (
     </div>
     <div className="contact-image-icons">
       <div className="contact-image">
-        <img src={"images/cachorro-contato.png"} className="cachorro-contato" />
+        <img src={dogImage} className="cachorro-contato" alt="cachorro" />
       </div>
-      <ul className="icons-list">
-        <li>
-          <a href="#"><img src={"images/icone-facebook.ico"} className="face-icon" /></a>
-          <p className="text-icon">Facebook</p>
-        </li>
-        <li>
-          <a href="#"><img src="images/icone-instagram.ico" className="insta-icon" /></a>
-          <p className="text-icon">Instagram</p>
-        </li>
-        <li>
-          <a href="#"><img src="images/icone-email.ico" className="email-icon" /></a>
-          <p className="text-icon">Email</p>
-        </li>
-      </ul>
+      <SocialNetworkLinks />
     </div>
     <div className="contact-subtitle">
       <h1>

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import SocialNetworkLinks from '../base/social-network-links';
-import cachorrinhosHome from '../../assets/images/cachorrinhos-home.png';
+import dogImage from '../../assets/images/cachorrinhos-home.png';
 
 export const HomeScreen = () => (
   <div className="container" id="home">
@@ -16,7 +16,7 @@ export const HomeScreen = () => (
       <SocialNetworkLinks />
     </div>
     <div className="home-image">
-      <img src={cachorrinhosHome} className="mask-element" alt="cachorrinhos"/>
+      <img src={dogImage} className="mask-element" alt="cachorrinhos"/>
     </div>
   </div>
 );
