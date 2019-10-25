@@ -6,8 +6,8 @@ export const AppBar = () => (
   <div className="navbar-menu">
     <ul>
       { 
-        appBarLinks.map((route) => (
-          <li>
+        appBarLinks.map((route, index) => (
+          <li key={index}>
             <NavLink exact to={route.path}>
               { route.title }
             </NavLink>

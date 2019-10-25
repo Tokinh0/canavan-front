@@ -2,7 +2,7 @@ import HomeScreen from '../components/screens/home';
 import AboutScreen from '../components/screens/about';
 import GalleryScreen from '../components/screens/gallery';
 import ContactScreen from '../components/screens/contact';
-import PadreadoresScreen from '../components/screens/padreadores';
+import DogScreen from '../components/screens/dog';
 
 export const routes = [
   {
@@ -30,10 +30,9 @@ export const routes = [
     component: ContactScreen,
   },
   {
-    path: '/padreadores',
-    title: 'Padreadores',
+    path: '/gallery/:slug',
     isAppBarLink: false,
-    component: PadreadoresScreen,
+    component: DogScreen,
   },
 ];
 

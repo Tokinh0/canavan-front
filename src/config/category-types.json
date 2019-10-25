@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Padreadores",
+    "slug": "padreadores",
+    "image": "padreador"
+  },
+  {
+    "title": "Matrizes",
+    "slug": "matrizes",
+    "image": "matrizes"
+  },
+  {
+    "title": "Estrela",
+    "slug": "estrela",
+    "image": "estrela"
+  },
+  {
+    "title": "Filhotes",
+    "slug": "filhotes",
+    "image": "filhotes"
+  }
+]

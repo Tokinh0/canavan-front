@@ -1,4 +1,6 @@
 import React from 'react';
+import CategoryItem from '../../components/gallery/category-item';
+import GategoryTypes from '../../config/category-types';
 
 export const GalleryScreen = () => (
   <div className="container" id="gallery">
@@ -11,42 +13,11 @@ export const GalleryScreen = () => (
     </div>
     <div className="gallery-types">
       <ul>
-        <li>
-          <a href="#padreadores">
-            <div className="image-container energy">
-              <div className="image-container__overlay">
-                <h3>PADREADORES</h3>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <div className="image-container energy">
-              <div className="image-container__overlay">
-                <h3>MATRIZES</h3>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <div className="image-container energy">
-              <div className="image-container__overlay">
-                <h3>ESTRELA</h3>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <div className="image-container energy">
-              <div className="image-container__overlay">
-                <h3>FILHOTES</h3>
-              </div>
-            </div>
-          </a>
-        </li>
+        {
+          GategoryTypes.map((categoryType, index) => (
+            <CategoryItem category={categoryType} key={index} />
+          ))
+        }
       </ul>
     </div>
   </div>

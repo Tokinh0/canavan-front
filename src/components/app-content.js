@@ -6,8 +6,8 @@ export const AppContent = () => (
   <div className="app">
     <Switch>
       { 
-        routeLinks.map((route) => (
-          <Route exact path={route.path}>
+        routeLinks.map((route, index) => (
+          <Route exact path={route.path} key={index}>
             { route.component }
           </Route>
         ))

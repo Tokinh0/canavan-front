@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const PadreadoresScreen = () => (
+export const DogScreen = () => (
   <div className="container" id="padreadores">
     <div className="padreadores-title">
       <h1>
@@ -18,4 +18,4 @@ export const PadreadoresScreen = () => (
   </div>
 );
 
-export default PadreadoresScreen;
+export default DogScreen;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const PadreadorItem = ({
+export const DogItem = ({
   dog: {
     images,
     name,
@@ -22,4 +22,4 @@ export const PadreadorItem = ({
   </div>
  );
 
-export default PadreadorItem;
+export default DogItem;
